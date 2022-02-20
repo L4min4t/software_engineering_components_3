@@ -8,10 +8,10 @@ import java.lang.reflect.Modifier;
 public class Main {
     public static void main(String[] args) throws Exception {
         //#1
-        Date day = new Date(12, 2, 2022);
+        Date day = new Date(8, 2, 2022);
         System.out.println("Example of using the first class constructor:\n" + day);
 
-        RecordBook rec = new RecordBook("Name", "Surname", "Patronymic", "+380668523654", 2, 2, 2222);
+        RecordBook rec = new RecordBook("Name", "Surname", "Patronymic", "+380668523654", 8, 2, 2222);
         System.out.println("Example of using the second class constructor:\n" + rec + "\n\n");
 
 

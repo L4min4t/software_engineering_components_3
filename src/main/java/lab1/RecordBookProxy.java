@@ -2,7 +2,6 @@ package lab1;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.UndeclaredThrowableException;
 
 public class RecordBookProxy implements InvocationHandler {
     private Object ref;

@@ -1,19 +1,15 @@
 package lab1;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.regex.Pattern;
-
 public interface IRecordBook {
-    public String getName();
-    public String getSurname();
-    public String getPatronymic();
-    public String getPhone();
+    String getName();
+    String getSurname();
+    String getPatronymic();
+    String getPhone();
 
-    public void setName(String name);
-    public void setSurname(String surname);
-    public void setPatronymic(String patronymic);
-    public void setPhone(String phone);
+    void setName(String name);
+    void setSurname(String surname);
+    void setPatronymic(String patronymic);
+    void setPhone(String phone);
 
-    public String daysToBirthday();
+    String daysToBirthday();
 }
